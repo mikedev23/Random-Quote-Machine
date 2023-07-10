@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #343a40;
+  background-image: linear-gradient(to bottom right, #32155d, #7c6e13);
+  color: #070707;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+#quote-box {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(118, 126, 233, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #343a40;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1c7998;
+}
+
+a {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #343a40;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #1c7998;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  #quote-box {
+    max-width: 300px;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  button {
+    padding: 4px 8px;
+    font-size: 0.8rem;
+  }
+
+  a {
+    padding: 4px 8px;
+    font-size: 0.8rem;
+  }
+}
